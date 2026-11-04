@@ -1,0 +1,9 @@
+.script{font-family:"Great Vibes",cursive;font-size:calc(13*var(--c));line-height:1.15}
+.cin{font-family:Cinzel,serif;letter-spacing:.3em;text-transform:uppercase;font-size:calc(3.6*var(--c));font-weight:500}
+.nm{font-family:Cinzel,serif;font-weight:700;font-size:calc(8*var(--c));line-height:1.2}
+.txt{font-size:calc(5*var(--c));line-height:1.35;font-weight:500}
+.q{font-style:italic;font-size:calc(4.4*var(--c));line-height:1.35;opacity:.92;margin-top:calc(1*var(--c))}
+.big{font-family:Cinzel,serif;font-weight:700;font-size:calc(13*var(--c));line-height:1.1}
+.red .nm,.red .script,.red .big,.gc .script{background:linear-gradient(100deg,#f3c75a,#fff5cc 25%,#e9b23c 50%,#b9831f 70%,#f3c75a);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;animation:sh 6s linear infinite;filter:drop-shadow(0 calc(.3*var(--c)) calc(.4*var(--c)) #0007)}
+.cream .nm,.cream .script,.cream .big{background:linear-gradient(100deg,#8e0f1c,#d1303c 30%,#7a0b17 60%,#b3162a);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;animation:sh 7s linear infinite}
+@keyframes sh{to{background-position:-200% 0}}
