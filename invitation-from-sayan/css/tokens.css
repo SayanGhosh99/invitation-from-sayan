@@ -1,2 +1,0 @@
-:root{--leaf:url(../assets/images/leaf.webp);--lar:297/702;--fpL:url(../assets/images/footprint-left.png);--fpR:url(../assets/images/footprint-right.png)}
-:root{--w:calc(min(100vw,100svh*9/16)/100);--c:var(--w);--red:#8e0f1c;--deep:#5e0710;--gold:#f2c14e;--ink:#6b0d17;color-scheme:light}

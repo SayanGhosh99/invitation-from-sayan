@@ -1,5 +1,0 @@
-*{box-sizing:border-box;margin:0}
-html,body{height:100%;background:radial-gradient(#7a0b17,#2a0307);font-family:"Cormorant Garamond",Georgia,serif}
-main{height:100%;overflow-y:scroll;scroll-snap-type:y mandatory;scrollbar-width:none}main::-webkit-scrollbar{display:none}
-.pg{height:100svh;scroll-snap-align:start;display:flex;justify-content:center;overflow:hidden}
-.col{--c:calc(var(--w)*.82);position:relative;isolation:isolate;width:min(100vw,calc(100svh*9/16));height:100%;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:calc(12*var(--w)) calc(9*var(--w));gap:calc(3*var(--w))}
