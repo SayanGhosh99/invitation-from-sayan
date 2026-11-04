@@ -1,0 +1,2 @@
+document.querySelectorAll(".col.red,.col.cream").forEach(function(c){c.insertAdjacentHTML("afterbegin",'<svg class="mdl"><use href="#md"/></svg><div class="lf sw lfl"></div><div class="lf sw lfr"></div>');
+if(!c.closest("#s5,#s7")){for(var i=0;i<9;i++){var t=document.createElement("i");t.className="pt";t.style.left=Math.random()*95+"%";t.style.animationDuration=(7+Math.random()*7)+"s";t.style.animationDelay=(-Math.random()*10)+"s";c.appendChild(t)}}});

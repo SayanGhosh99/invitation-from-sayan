@@ -1,0 +1,5 @@
+.lf{background:var(--leaf) center/100% 100% no-repeat;aspect-ratio:var(--lar);filter:drop-shadow(0 calc(1*var(--c)) calc(1.6*var(--c)) #0005);pointer-events:none}
+.lf.sw{transform-origin:50% 100%;animation:brz 5.5s ease-in-out infinite}
+@keyframes brz{0%,100%{transform:scaleX(var(--fx,1)) rotate(var(--r)) skewX(-2deg)}50%{transform:scaleX(var(--fx,1)) rotate(calc(var(--r) + 4deg)) skewX(2.5deg) scaleY(1.02)}}
+.lfl,.lfr{position:absolute;width:calc(23*var(--c));bottom:calc(-12*var(--c));z-index:-1}
+.lfl{left:calc(-6*var(--c));--r:16deg}.lfr{right:calc(-6*var(--c));--r:16deg;--fx:-1;animation-delay:-2.5s}
