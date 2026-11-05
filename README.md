@@ -2,6 +2,7 @@
 
 Wedding reception invitation: Sayan & Sanchari, 15 December 2026.
 
+
 ```
 index.html              shell: meta tags, music button, <audio>, dots nav, <main>, script tags
 assets/
@@ -14,7 +15,7 @@ css/
   leaf.css              swaying leaf decoration
   typography.css        script / Cinzel / name text styles
   components.css        ornament, reveal, photo arch, events, button, countdown, dots, petals
-  pages/                01-bodhuboron.css, 03-alpana.css (page-specific styles)
+  page-01-bodhuboron.css, page-03-alpana.css   page-specific styles
   gate.css              curtain gate + thali scene
   music.css             music button
   responsive.css        landscape tweaks
@@ -26,4 +27,6 @@ js/
   pages/                03-alpana (alpana + footprints), 06-venue-map (map button)
 ```
 
-Script order in `index.html` matters
+Script order in `index.html` matters: it is the same order as the original single `<script>`.
+
+Open `index.html` directly in a browser, or host the folder as-is (e.g. GitHub Pages).
